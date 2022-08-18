@@ -24,6 +24,7 @@ npm install discord.js@v13.8.1
 2. Follow [this YouTube tutorial](https://www.youtube.com/watch?v=qceocw4kf7c)
 ## Creating / commands
 Creating commands with the command handler is easy
+
 ```js
 const { SlashCommandBuilder } = require("@discordjs/builders")
 

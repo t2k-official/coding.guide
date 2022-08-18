@@ -1,1 +1,8 @@
-theme: jekyll-theme-midnight
+title: Code.github.io
+description: Help you code a discord bot!
+theme: jekyll-theme-cayman
+show_downloads: true
+github:
+  zip_url: https://t2k-official.github.io/t2manager.github.io
+  repository_url: https://discord.gg/aMgCkekQJ9
+  tar_url: https://top.gg/bot/982953875915034644

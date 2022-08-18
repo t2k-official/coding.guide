@@ -58,7 +58,7 @@ module.exports = {
 This sends an embed message instead of a normal one
 const { SlashCommandBuilder } = require("@discordjs/builders")
 const { MessageEmbed } = require('discord.js')
-
+```js
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("ping")

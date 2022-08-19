@@ -10,7 +10,7 @@ npm install discord.js@v13.8.1
 ```
 ## Discord Developer Portal
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications) and login with your discord
-2. Click on New Application in the top left and give your bot a name
+2. Click on New Application in the top right and give your bot a name
 3. On the left hand side click bot then add bot
 4. On the left hand side click OAuth2 then URl Generator
 5. Tick these boxes:
@@ -58,9 +58,9 @@ module.exports = {
 ```
 ### MessageEmbed
 This sends an embed message instead of a normal one
+```js
 const { SlashCommandBuilder } = require("@discordjs/builders")
 const { MessageEmbed } = require('discord.js')
-```js
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("ping")

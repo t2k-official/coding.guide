@@ -188,7 +188,7 @@ worker: node src/index.js
 3. Save the file
 
 ### Hosting The Bot
-1. Go to [heroku]()
+1. Go to [heroku](https://id.heroku.com/login)
 2. Create and account or login
 3. Create a new project
 4. Go to the deploy option and click GitHub 

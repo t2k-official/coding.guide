@@ -153,8 +153,44 @@ module.exports = {
 ## Adding A Database
 ### quick.db
 ```
-npm install quick.db
+npm install quick.db better-sqlite3
 ```
-Go to the [quickdb website](https://quickdb.js.org/)
+[quickdb website](https://quickdb.js.org/)
+
+Quick Db is an easy to use database using sqlite3
+```js
+const { QuickDB } = require('quick.db')
+const db = new QuickDB
+```
+```js
+db.add(`value_${interaction.guild.id}`, 2)
+```
+```js
+db.delete(`value_${interaction.guild.id}`)
+Or
+db.delete(`value_${interaction.guild.id}`, 1)
+```
+```js
+db.set(`value_${interaction.guild.id}`, 2)
+```
 ## Hosting The Bot
 ### Heroku
+Heroku is an easy to use hosting website which is completely free
+Make sure your bot has a Procfile if not create one
+### Procfile
+1. Create a new file and name it Procfile
+2. In the file type:
+```js
+worker: node src/index.js
+```
+3. Save the file
+### Hosting The Bot
+1. Go to [heroku]()
+2. Create and account or login
+3. Create a new project
+4. Go to the deploy option and click GitHub 
+5. Login with your GitHub and then search for the bots repository you want to host
+6. Enable automatic deploys then deploy and wait for it to finish
+7. Go to the Dynos option and refresh the page
+8. Select the worker and turn it on
+9. Wait for your bot to turn on

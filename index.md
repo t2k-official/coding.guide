@@ -174,9 +174,11 @@ db.delete(`value_${interaction.guild.id}`, 1)
 db.set(`value_${interaction.guild.id}`, 2)
 ```
 ## Hosting The Bot
+
 ### Heroku
 Heroku is an easy to use hosting website which is completely free
 Make sure your bot has a Procfile if not create one
+
 ### Procfile
 1. Create a new file and name it Procfile
 2. In the file type:
@@ -184,6 +186,7 @@ Make sure your bot has a Procfile if not create one
 worker: node src/index.js
 ```
 3. Save the file
+
 ### Hosting The Bot
 1. Go to [heroku]()
 2. Create and account or login

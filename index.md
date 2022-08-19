@@ -10,9 +10,9 @@ npm install discord.js@v13.8.1
 ```
 ## Discord Developer Portal
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications) and login with your discord
-2. Click on New Application in the top right and give your bot a name
+2. Click on New Application in the top right and give your bot a name[my image](t2k-official/code.github.io/images/Dev portal new application.png)
 3. On the left hand side click bot then add bot
-4. On the left hand side click OAuth2 then URl Generator
+4. On the left hand side click OAuth2 then URL Generator
 5. Tick these boxes:
 - bot
 - application.commands

@@ -176,6 +176,8 @@ db.set(`value_${interaction.guild.id}`, 2)
 ## Hosting The Bot
 
 ### Heroku
+**__Note: Heroku is removing its free service by November 28th 2022 so please use the other options provided as this will be removed soon__**
+ 
 Heroku is an easy to use hosting website which is completely free
 Make sure your bot has a Procfile if not create one
 

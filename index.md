@@ -2,7 +2,7 @@
 
 This is to help you create a discord bot!
 # Information
-[Add A Database](./databases.md)
+[Add A Database](./database.md)
 
 [Host Your Bot](./hosting.md)
 

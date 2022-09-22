@@ -1,6 +1,10 @@
 # Welcome to code.github.io
 
 This is to help you create a discord bot!
+# Information
+[Add A Database](./databases.md)
+
+[Host Your Bot](./hosting.md)
 
 # v13 Discord Bot
 
@@ -149,5 +153,3 @@ module.exports = {
       }
 }
 ```
-[Add A Database](./database.md)
-[Host Your Bot](./hosting.md)

@@ -1,4 +1,4 @@
-# Welcome to code.github.io
+# Welcome to code.guide
 
 This is to help you create a discord bot!
 # Information
